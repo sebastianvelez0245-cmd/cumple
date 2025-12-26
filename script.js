@@ -1,5 +1,5 @@
 // Fecha objetivo: 29 de abril a las 00:00
-const targetDate = new Date("2025-04-29T00:00:00");
+const targetDate = new Date("2026-04-29T00:00:00-05:00");
 
 // Elementos del DOM
 const lockedScreen = document.getElementById("locked-screen");
@@ -36,3 +36,4 @@ function updateCountdown() {
 // Actualizar cada segundo
 setInterval(updateCountdown, 1000);
 updateCountdown();
+
