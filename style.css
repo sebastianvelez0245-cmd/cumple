@@ -1,0 +1,106 @@
+/* Colores suaves y delicados */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom, #ffeae6, #fff7f3);
+}
+
+#container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.screen {
+    animation: fadeIn 1.6s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    color: #f38a8a;
+    font-weight: 700;
+}
+
+.sub {
+    color: #b87b7b;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    font-size: 1.8rem;
+    color: #e26b6b;
+}
+
+#countdown div {
+    background: #ffe0dd;
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+
+.locked-btn {
+    padding: 12px 20px;
+    border: none;
+    background: #f0bdb8;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.small {
+    margin-top: 10px;
+    color: #b78c8c;
+}
+
+.name {
+    font-size: 2.4rem;
+    color: #ec6d6d;
+}
+
+.main-text {
+    font-size: 1.1rem;
+    color: #7e4e4e;
+    margin: 20px 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    background: #ffe4e0;
+    padding: 15px;
+    border-radius: 12px;
+    color: #7b4949;
+}
+
+.final {
+    margin-top: 25px;
+    color: #7b4949;
+    font-size: 1.15rem;
+}
+
+.final-btn {
+    margin-top: 25px;
+    padding: 14px 22px;
+    background: #ec6d6d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
